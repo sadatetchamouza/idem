@@ -2,10 +2,32 @@
 -------------------------------------------------- */
 /* Padding below the footer and lighter body text */
 
+
+html, body {
+  height: 100%;
+}
+
+
 body {
   padding-top: 3rem;
   padding-bottom: 3rem;
   color: #5a5a5a;
+}
+
+main {
+  min-height: 100%;
+} 
+
+footer {
+  position: relative;
+  margin-top: -180px;
+  /* negative value of footer height */
+  height: 180px;
+  clear: both;
+}
+
+.bg-black {
+  background-color: black;
 }
 
 
